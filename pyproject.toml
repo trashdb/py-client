@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trashdb"
+version = "0.1.0"
+description = "Official Python SDK for TrashDB — ephemeral database containers on demand"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "trashdb", email = "hello@trashdb.dev" },
+]
+keywords = [
+    "trashdb",
+    "ephemeral",
+    "database",
+    "docker",
+    "postgres",
+    "mongodb",
+    "redis",
+    "chromadb",
+    "qdrant",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
