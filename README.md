@@ -22,4 +22,4 @@ pip install trashdb
 
 ## Documentation
 
-See https://trashdb.dev/docs
+See https://docs.trashdb.dev/sdks/python
